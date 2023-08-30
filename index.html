@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,100,1,200"
+        rel="stylesheet" />
 
     <title>linkedin</title>
 
@@ -13,7 +15,376 @@
 </head>
 
 <body>
-    <h1>Hello world!</h1>
+    <nav>
+        <div class="search-bar">
+            <a href="#" class="linkedin"> <img src="images/linkedin.png" width="35px" height="35px" /></a>
+            <input id="search" type="text" placeholder=" Search" />
+        </div>
+
+
+        <a href="#" class=" menu-icon">
+            <span class="material-symbols-outlined " style="font-size: 30px;">home</span>
+            <span class="icon-caption">Home</span>
+        </a>
+        <a href="#" class=" menu-icon">
+            <span class="material-symbols-outlined " style="font-size: 30px;">group</span>
+            <span class="icon-caption">My Network</span>
+        </a>
+        <a href="#" class=" menu-icon">
+            <span class="material-symbols-outlined " style="font-size: 30px;">Work</span>
+            <span class="icon-caption">Jobs</span>
+        </a>
+        <a href="#" class=" menu-icon">
+            <span class="material-symbols-outlined " style="font-size: 30px;">sms</span>
+            <span class="icon-caption">Messaging</span>
+        </a>
+        <a href="#" class=" menu-icon">
+            <span class="material-symbols-outlined " style="font-size: 30px;">notifications</span>
+            <span class="notification">11</span>
+            <span class="icon-caption">Notification</span>
+        </a>
+        <a href="#" class=" menu-icon">
+            <img src="images/user.png" width="30px" height="30px" />
+            <span class="icon-caption">Me</span>
+        </a>
+
+    </nav>
+
+
+    <div class="content">
+
+        <div class="left-colunm">
+            <div class="card" style="width:200px; margin-bottom: 10px;  ">
+                <div style="width: 100%; height: 50px; background-color: grey;"></div>
+                <a href="#" class="profile">
+                    <img src="images/user.png" width="70px" height="70px">
+                    <p style="font-size: 15px;">Full Name</p>
+                </a>
+                <hr>
+                <button type="button" class="button" style="padding: 15px;">
+                    <p class="font1" style="color: rgb(138, 138, 138);">Connections<img src="images/add-friend.png"
+                            width="15px" height="15px" style="margin-left: 70px;"></p>
+                    <p class="font1">Grow your network</p>
+
+                </button>
+                <hr>
+                <button type="button" class="button" style="padding: 15px;">
+
+                    <p class="font1"><img src="images/bookmark.png" width="20px" height="20px"
+                            style="position: relative;top:5px;">My items</p>
+                </button>
+
+            </div>
+            <div class="card" style="position: sticky; top: 20px; width:200px;">
+                <p class="font1" style="color: rgb(59, 59, 59);margin: 15px;margin-bottom: 0;">Recent</p>
+                <button type="button" class="button">
+                    <p class="font1" style="color: rgb(120, 120, 120);"><img src="images/group.png" width="15px"
+                            height="15px" style="margin-right:5px;">Job for IT, Software,Web</p>
+                </button>
+                <button type="button" class="button">
+
+                    <p class="font1" style="color: rgb(120, 120, 120);"><img src="images/group.png" width="15px"
+                            height="15px" style="margin-right:5px;">Frontend developement</p>
+                </button>
+                <a class="link-style">
+                    <p class="font1">Groups</p>
+                </a>
+                <button type="button" class="button">
+                    <p class="font1" style="color: rgb(120, 120, 120);"><img src="images/group.png" width="15px"
+                            height="15px" style="margin-right:5px;">Job for IT, Software,Web</p>
+                </button>
+                <button type="button" class="button">
+
+                    <p class="font1" style="color: rgb(120, 120, 120);"><img src="images/group.png" width="15px"
+                            height="15px" style="margin-right:5px;">Frontend developement</p>
+                </button>
+                <button type="button" class="button">
+
+                    <p class="font1" style="color: rgb(120, 120, 120); margin-left: 20px;">See all</p>
+                </button>
+                <a class="link-style">
+                    <p class="font1">Events</p>
+                </a>
+                <a class="link-style">
+                    <p class="font1">Followed Hashtag</p>
+                </a>
+                <hr>
+                <button type="button" class="button" style="height: 50px;">
+
+                    Discover More
+                </button>
+
+            </div>
+        </div>
+
+        <div class="center-colunm">
+            <div class="card" style="padding: 10px;">
+                <div style="display: flex;align-items: center; margin-bottom: 5px;">
+                    <img src="images/user.png" width="45px" height="45px" />
+                    <button type="button" class="post-btn">Start a post</button>
+                </div>
+                <div style="display: flex;justify-content: space-evenly;">
+                    <button class="button-1" type="button">
+
+                        <p class="font1" style="color: rgb(138, 138, 138);"><img src="images/photo.png" width="25px"
+                                height="auto" style="position: relative; top: 5px;right: 5px;">Photo</p>
+                    </button>
+                    <button class="button-1" type="button">
+
+                        <p class="font1" style="color: rgb(138, 138, 138);"><img src="images/video.png" width="25px"
+                                height="auto" style="position: relative; top: 5px;right: 5px;">Video</p>
+                    </button>
+                    <button class="button-1" type="button">
+
+                        <p class="font1" style="color: rgb(138, 138, 138);"><img src="images/calendar.png" width="25px"
+                                height="auto" style="position: relative; top: 5px;right: 5px;">Event</p>
+                    </button>
+                    <button class="button-1" type="button">
+
+                        <p class="font1" style="color: rgb(138, 138, 138);"><img src="images/newspaper.png" width="25px"
+                                height="auto" style="position: relative; top: 5px;right: 5px;">Write article</p>
+                    </button>
+                </div>
+
+            </div>
+            <hr style="margin: 15px 0;">
+            <div class="card" id="post" style="margin-bottom: 20px;">
+                <div id="prof-content">
+                    <div style="display: flex;align-items: center;">
+                        <img src="images/propic.jpg" alt="profile pic" width="30px" height="30px">
+                        <div style="margin-left: 10px;">
+                            <span class="font1">Web Developers</span><br>
+                            <span class="font2" style="position: relative; top: -10px;">5,000 followers</span>
+                        </div>
+                    </div>
+                    <img src="images/menu.png" alt="option" width="15px" height="15px" class="option">
+                </div>
+                <div id="post-content">
+                    <p style="margin-left: 10px;font-size: 15px;"> Frontend developement stack.</p>
+                    <img src="images/post1.jpg" alt="post pic" width="100%" height="auto">
+                </div>
+                <div id="reaction-content">
+                    <div style="display: flex; justify-content: space-between; margin: 10px;">
+                        <div style="float: left;">
+                            <img src="images/like1.png" alt="profile pic" width="20px" height="20px">
+                            <span class="font2" style="position: relative; top: -5px;">305</span><br>
+                        </div>
+
+                        <div style="float: left;">
+                            <span class="font2">589 comment . </span>
+                            <span class="font2">5 repost</span>
+                        </div>
+                    </div>
+                    <hr style="margin: 0 20px;">
+                    <div style="display: flex;justify-content: space-evenly; margin: 10px;">
+                        <button class="button-1" type="button">
+
+                            <p class="font1" style="color: rgb(138, 138, 138);"><img src="images/like.png" width="25px"
+                                    height="auto" style="position: relative; top: 5px;right: 5px;">Like</p>
+                        </button>
+                        <button class="button-1" type="button">
+
+                            <p class="font1" style="color: rgb(138, 138, 138);"><img src="images/message.png"
+                                    width="25px" height="auto" style="position: relative; top: 5px;right: 5px;">Comment
+                            </p>
+                        </button>
+                        <button class="button-1" type="button">
+
+                            <p class="font1" style="color: rgb(138, 138, 138);"><img src="images/arrow.png" width="25px"
+                                    height="auto" style="position: relative; top: 5px;right: 5px;">Repost
+                            </p>
+                        </button>
+                        <button class="button-1" type="button">
+
+                            <p class="font1" style="color: rgb(138, 138, 138);"><img src="images/send.png" width="25px"
+                                    height="auto" style="position: relative; top: 5px;right: 5px;">Send</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="post" style="margin-bottom: 20px;">
+                <div id="prof-content">
+                    <div style="display: flex;align-items: center;">
+                        <img src="images/propic.jpg" alt="profile pic" width="30px" height="30px">
+                        <div style="margin-left: 10px;">
+                            <span class="font1">Web Developers</span><br>
+                            <span class="font2" style="position: relative; top: -10px;">5,000 followers</span>
+                        </div>
+                    </div>
+                    <img src="images/menu.png" alt="option" width="15px" height="15px" class="option">
+                </div>
+                <div id="post-content">
+                    <p style="margin-left: 10px;font-size: 15px;"> Frontend vs Backend.</p>
+                    <img src="images/post3.png" alt="post pic" width="100%" height="auto">
+                </div>
+                <div id="reaction-content">
+                    <div style="display: flex; justify-content: space-between; margin: 10px;">
+                        <div style="float: left;">
+                            <img src="images/like1.png" alt="profile pic" width="20px" height="20px">
+                            <span class="font2" style="position: relative; top: -5px;">305</span><br>
+                        </div>
+
+                        <div style="float: left;">
+                            <span class="font2">589 comment . </span>
+                            <span class="font2">5 repost</span>
+                        </div>
+                    </div>
+                    <hr style="margin: 0 20px;">
+                    <div style="display: flex;justify-content: space-evenly; margin: 10px;">
+                        <button class="button-1" type="button">
+
+                            <p class="font1" style="color: rgb(138, 138, 138);"><img src="images/like.png" width="25px"
+                                    height="auto" style="position: relative; top: 5px;right: 5px;">Like</p>
+                        </button>
+                        <button class="button-1" type="button">
+
+                            <p class="font1" style="color: rgb(138, 138, 138);"><img src="images/message.png"
+                                    width="25px" height="auto" style="position: relative; top: 5px;right: 5px;">Comment
+                            </p>
+                        </button>
+                        <button class="button-1" type="button">
+
+                            <p class="font1" style="color: rgb(138, 138, 138);"><img src="images/arrow.png" width="25px"
+                                    height="auto" style="position: relative; top: 5px;right: 5px;">Repost
+                            </p>
+                        </button>
+                        <button class="button-1" type="button">
+
+                            <p class="font1" style="color: rgb(138, 138, 138);"><img src="images/send.png" width="25px"
+                                    height="auto" style="position: relative; top: 5px;right: 5px;">Send</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="post" style="margin-bottom: 20px;">
+                <div id="prof-content">
+                    <div style="display: flex;align-items: center;">
+                        <img src="images/propic.jpg" alt="profile pic" width="30px" height="30px">
+                        <div style="margin-left: 10px;">
+                            <span class="font1">Web Developers</span><br>
+                            <span class="font2" style="position: relative; top: -10px;">5,000 followers</span>
+                        </div>
+                    </div>
+                    <img src="images/menu.png" alt="option" width="15px" height="15px" class="option">
+                </div>
+                <div id="post-content">
+                    <p style="margin-left: 10px;font-size: 15px;"> Roadmap to being a full stack developer.</p>
+                    <img src="images/post2.jpg" alt="post pic" width="100%" height="auto">
+                </div>
+                <div id="reaction-content">
+                    <div style="display: flex; justify-content: space-between; margin: 10px;">
+                        <div style="float: left;">
+                            <img src="images/like1.png" alt="profile pic" width="20px" height="20px">
+                            <span class="font2" style="position: relative; top: -5px;">305</span><br>
+                        </div>
+
+                        <div style="float: left;">
+                            <span class="font2">589 comment . </span>
+                            <span class="font2">5 repost</span>
+                        </div>
+                    </div>
+                    <hr style="margin: 0 20px;">
+                    <div style="display: flex;justify-content: space-evenly; margin: 10px;">
+                        <button class="button-1" type="button">
+
+                            <p class="font1" style="color: rgb(138, 138, 138);"><img src="images/like.png" width="25px"
+                                    height="auto" style="position: relative; top: 5px;right: 5px;">Like</p>
+                        </button>
+                        <button class="button-1" type="button">
+
+                            <p class="font1" style="color: rgb(138, 138, 138);"><img src="images/message.png"
+                                    width="25px" height="auto" style="position: relative; top: 5px;right: 5px;">Comment
+                            </p>
+                        </button>
+                        <button class="button-1" type="button">
+
+                            <p class="font1" style="color: rgb(138, 138, 138);"><img src="images/arrow.png" width="25px"
+                                    height="auto" style="position: relative; top: 5px;right: 5px;">Repost
+                            </p>
+                        </button>
+                        <button class="button-1" type="button">
+
+                            <p class="font1" style="color: rgb(138, 138, 138);"><img src="images/send.png" width="25px"
+                                    height="auto" style="position: relative; top: 5px;right: 5px;">Send</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="right-colunm">
+            <div class="card" style="width:300px; margin-bottom: 10px; ">
+                <div style="margin-left: 10px;margin-top: 10px;">
+                    <p class="font1" style="font-size: 15px; font-family: sans-serif;">Linkedin news</p>
+
+                    <li class="news">
+                        <a class="font1">
+                            Reining in retail inflation
+                        </a>
+                        <br>
+                        <span class="font2" style="margin-left: 20px;">1 day ago . </span>
+                        <span class="font2">768 readers</span>
+
+                    </li>
+                    <li class="news">
+                        <a class="font1">
+                            IT firms power sports tech
+                        </a>
+                        <br>
+                        <span class="font2" style="margin-left: 20px;">1 day ago . </span>
+                        <span class="font2">768 readers</span>
+
+                    </li>
+                    <li class="news">
+                        <a class="font1">
+                            Reimagining pay at India Inc
+                        </a>
+                        <br>
+                        <span class="font2" style="margin-left: 20px;">1 day ago . </span>
+                        <span class="font2">768 readers</span>
+
+                    </li>
+                    <li class="news">
+                        <a class="font1">
+                            Reining in retail inflation
+                        </a>
+                        <br>
+                        <span class="font2" style="margin-left: 20px;">1 day ago . </span>
+                        <span class="font2">768 readers</span>
+
+                    </li>
+                </div>
+            </div>
+            <div style="position: sticky; top: 20px; width:300px; ">
+                <div class="card" style="padding: 10px;">
+                    <div style="display: flex; justify-content: end; ">
+                        <span class="font2">Ad</span>
+                        <img src="images/menu.png" alt="option" width="15px" height="15px" style="margin-left: 5px;">
+                    </div>
+                    <div style="display: flex; align-items: center; flex-direction: column;">
+                        <img src="images/addpic.webp" width="auto" height="70px">
+                        <button class="follow-button">Follow</button>
+                    </div>
+                </div>
+                <div style="text-align: center; ">
+                    <a class="font3">About</a>
+                    <a class="font3">Accessibility</a>
+                    <a class="font3">Help center</a>
+                    <br>
+                    <a class="font3">Privacy & Terms</a>
+                    <a class="font3">Advertising</a>
+                    <br>
+                    <a class="font3">Buissiness services</a>
+                    <a class="font3">More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </body>
 
 </html>

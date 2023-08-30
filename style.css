@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(243, 242, 240);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/*style of menu*/
+nav {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+.linkedin {
+    position: absolute;
+    left: 200px;
+    margin: 0;
+}
+
+#search {
+    height: 30px;
+    width: 250px;
+    align-self: center;
+    margin-right: 150px;
+    margin-left: 235px;
+    background-color: rgb(219, 219, 219);
+    border: none;
+    border-radius: 2px;
+}
+
+.menu-icon {
+    margin-top: -10px;
+    text-align: center;
+    color: rgb(75, 75, 75);
+    height: 35px;
+}
+
+.menu-icon:hover {
+    color: black;
+}
+
+.icon-caption {
+    position: relative;
+    bottom: 10px;
+    display: block;
+    font-size: 11px;
+}
+
+.notification {
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: white;
+    background-color: red;
+    padding: 2px;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 50%;
+}
+
+
+
+/*style of content after menu*/
+.content {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.left-colunm {
+    margin-right: 20px;
+}
+
+.center-colunm {
+    margin-right: 20px;
+    max-width: 600px;
+}
+
+.right-colunm {
+    max-width: 300px;
+}
+
+.card {
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-25px);
+    text-decoration: none;
+}
+
+.profile:hover {
+    text-decoration: underline;
+}
+
+.button {
+    border: none;
+    width: 100%;
+    background-color: white;
+}
+
+.button:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+.font1 {
+    font-family: monospace'Courier New', Courier;
+    text-align: left;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+hr {
+    margin: 0;
+    border-top: 1px solid rgb(182, 182, 182);
+}
+
+.link-style {
+    color: rgb(0, 200, 255);
+    margin: 15px;
+    margin-bottom: 0;
+    text-decoration: none;
+    display: block;
+}
+
+.link-style:hover {
+    text-decoration: underline;
+}
+
+.post-btn {
+    width: 450px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-align: left;
+    margin-left: 15px;
+    background-color: white;
+}
+
+.post-btn:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+.button-1 {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button-1:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+.font2 {
+    font-family: sans-serif;
+    text-align: left;
+    margin: 0;
+    font-size: 10px;
+    padding: 0;
+}
+
+#prof-content {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.option {
+    border-radius: 50%;
+    margin: 15px;
+    padding: 5px;
+}
+
+.option:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+.news {
+    width: 100%;
+    padding: 5px;
+}
+
+.news:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+.follow-button {
+    margin-top: 20px;
+    border: 1px solid blue;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+
+}
+
+.follow-button:hover {
+    border: 1px solid rgb(0, 0, 154);
+    background-color: rgb(180, 245, 255);
+
+}
+
+.font3 {
+    text-decoration: none;
+    font-size: 10px;
+    margin: 10px;
+}
+
+.font3:hover {
+    color: blue;
+    text-decoration: underline;
+}
