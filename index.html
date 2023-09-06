@@ -21,6 +21,10 @@
             <input id="search" type="text" placeholder=" Search" />
         </div>
 
+        <a href="#" class="menu-icon" id="search-icon">
+            <span class="material-symbols-outlined " style="font-size: 30px;">search</span>
+            <span class="icon-caption">Search</span>
+        </a>
 
         <a href="#" class=" menu-icon">
             <span class="material-symbols-outlined " style="font-size: 30px;">home</span>
@@ -43,7 +47,7 @@
             <span class="notification">11</span>
             <span class="icon-caption">Notification</span>
         </a>
-        <a href="#" class=" menu-icon">
+        <a href="#" class=" menu-icon" id="profile-link">
             <img src="images/user.png" width="30px" height="30px" />
             <span class="icon-caption">Me</span>
         </a>
@@ -54,7 +58,7 @@
     <div class="content">
 
         <div class="left-colunm">
-            <div class="card" style="width:200px; margin-bottom: 10px;  ">
+            <div class="card" style="width:100%; margin-bottom: 10px;  ">
                 <div style="width: 100%; height: 50px; background-color: grey;"></div>
                 <a href="#" class="profile">
                     <img src="images/user.png" width="70px" height="70px">
@@ -75,7 +79,7 @@
                 </button>
 
             </div>
-            <div class="card" style="position: sticky; top: 20px; width:200px;">
+            <div class="card" style="position: sticky; top: 20px; width:100%;">
                 <p class="font1" style="color: rgb(59, 59, 59);margin: 15px;margin-bottom: 0;">Recent</p>
                 <button type="button" class="button">
                     <p class="font1" style="color: rgb(120, 120, 120);"><img src="images/group.png" width="15px"
@@ -148,8 +152,8 @@
 
             </div>
             <hr style="margin: 15px 0;">
-            <div class="card" id="post" style="margin-bottom: 20px;">
-                <div id="prof-content">
+            <div class="card" style="margin-bottom: 20px;">
+                <div class="prof-content">
                     <div style="display: flex;align-items: center;">
                         <img src="images/propic.jpg" alt="profile pic" width="30px" height="30px">
                         <div style="margin-left: 10px;">
@@ -159,11 +163,11 @@
                     </div>
                     <img src="images/menu.png" alt="option" width="15px" height="15px" class="option">
                 </div>
-                <div id="post-content">
+                <div>
                     <p style="margin-left: 10px;font-size: 15px;"> Frontend developement stack.</p>
                     <img src="images/post1.jpg" alt="post pic" width="100%" height="auto">
                 </div>
-                <div id="reaction-content">
+                <div>
                     <div style="display: flex; justify-content: space-between; margin: 10px;">
                         <div style="float: left;">
                             <img src="images/like1.png" alt="profile pic" width="20px" height="20px">
@@ -203,8 +207,8 @@
                 </div>
             </div>
 
-            <div class="card" id="post" style="margin-bottom: 20px;">
-                <div id="prof-content">
+            <div class="card" style="margin-bottom: 20px;">
+                <div class="prof-content">
                     <div style="display: flex;align-items: center;">
                         <img src="images/propic.jpg" alt="profile pic" width="30px" height="30px">
                         <div style="margin-left: 10px;">
@@ -214,11 +218,11 @@
                     </div>
                     <img src="images/menu.png" alt="option" width="15px" height="15px" class="option">
                 </div>
-                <div id="post-content">
+                <div>
                     <p style="margin-left: 10px;font-size: 15px;"> Frontend vs Backend.</p>
                     <img src="images/post3.png" alt="post pic" width="100%" height="auto">
                 </div>
-                <div id="reaction-content">
+                <div>
                     <div style="display: flex; justify-content: space-between; margin: 10px;">
                         <div style="float: left;">
                             <img src="images/like1.png" alt="profile pic" width="20px" height="20px">
@@ -258,8 +262,8 @@
                 </div>
             </div>
 
-            <div class="card" id="post" style="margin-bottom: 20px;">
-                <div id="prof-content">
+            <div class="card" style="margin-bottom: 20px;">
+                <div class="prof-content">
                     <div style="display: flex;align-items: center;">
                         <img src="images/propic.jpg" alt="profile pic" width="30px" height="30px">
                         <div style="margin-left: 10px;">
@@ -269,11 +273,11 @@
                     </div>
                     <img src="images/menu.png" alt="option" width="15px" height="15px" class="option">
                 </div>
-                <div id="post-content">
+                <div>
                     <p style="margin-left: 10px;font-size: 15px;"> Roadmap to being a full stack developer.</p>
                     <img src="images/post2.jpg" alt="post pic" width="100%" height="auto">
                 </div>
-                <div id="reaction-content">
+                <div>
                     <div style="display: flex; justify-content: space-between; margin: 10px;">
                         <div style="float: left;">
                             <img src="images/like1.png" alt="profile pic" width="20px" height="20px">
@@ -317,9 +321,10 @@
 
         </div>
         <div class="right-colunm">
-            <div class="card" style="width:300px; margin-bottom: 10px; ">
-                <div style="margin-left: 10px;margin-top: 10px;">
-                    <p class="font1" style="font-size: 15px; font-family: sans-serif;">Linkedin news</p>
+            <div class="card" style="width:100%; margin-bottom: 10px; ">
+                <div>
+                    <p class="font1" style="font-size: 15px; font-family: sans-serif; padding: 10px;">Linkedin news
+                    </p>
 
                     <li class="news">
                         <a class="font1">
@@ -359,7 +364,7 @@
                     </li>
                 </div>
             </div>
-            <div style="position: sticky; top: 20px; width:300px; ">
+            <div style="position: sticky; top: 20px; width:100%; ">
                 <div class="card" style="padding: 10px;">
                     <div style="display: flex; justify-content: end; ">
                         <span class="font2">Ad</span>

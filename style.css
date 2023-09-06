@@ -12,6 +12,7 @@ nav {
     align-items: center;
     background-color: white;
     padding: 10px;
+
 }
 
 nav a {
@@ -20,18 +21,16 @@ nav a {
 
 }
 
-.linkedin {
-    position: absolute;
-    left: 200px;
-    margin: 0;
+.search-bar {
+    margin-left: 13%;
+    margin-right: 30%;
 }
 
 #search {
     height: 30px;
-    width: 250px;
-    align-self: center;
-    margin-right: 150px;
-    margin-left: 235px;
+    width: 15%;
+    position: absolute;
+    top: 10px;
     background-color: rgb(219, 219, 219);
     border: none;
     border-radius: 2px;
@@ -67,26 +66,32 @@ nav a {
     border-radius: 50%;
 }
 
+#search-icon {
+    display: none;
+}
+
 
 
 /*style of content after menu*/
 .content {
     display: flex;
     margin-top: 25px;
-    margin-left: 200px;
+    margin-left: 13%;
 }
 
 .left-colunm {
     margin-right: 20px;
+    width: 15%;
 }
 
 .center-colunm {
     margin-right: 20px;
-    max-width: 600px;
+    width: 45%;
 }
 
 .right-colunm {
-    max-width: 300px;
+    width: 20%;
+
 }
 
 .card {
@@ -177,7 +182,7 @@ hr {
     padding: 0;
 }
 
-#prof-content {
+.prof-content {
     margin-left: 10px;
     display: flex;
     justify-content: space-between;
@@ -194,8 +199,8 @@ hr {
 }
 
 .news {
-    width: 100%;
-    padding: 5px;
+
+    padding: 10px;
 }
 
 .news:hover {
@@ -229,4 +234,55 @@ hr {
 .font3:hover {
     color: blue;
     text-decoration: underline;
+}
+
+@media screen and (max-width:750px) {
+
+    nav {
+        padding-right: 0;
+    }
+
+    .center-colunm {
+        width: 100%;
+        margin: 0;
+    }
+
+    .content {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .left-colunm {
+        width: 100%;
+
+    }
+
+    .right-colunm {
+        display: none;
+    }
+
+    .search-bar {
+        margin: 0;
+    }
+
+    #search {
+        display: none;
+    }
+
+    #search-icon {
+        display: block;
+    }
+
+    #profile-link {
+        display: none;
+    }
+
+    .icon-caption {
+
+        display: none;
+    }
+
+    .notification {
+        display: none;
+    }
 }
